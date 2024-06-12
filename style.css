@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Serif", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Navbar */
+
+.my-logo {
+    color: #ed155d;
+}
+
+
+.navbar {
+    background-color: #243238;
+}
+
+.my-items {
+    font-size: 25px;
+
+}
+
+.my-items:hover {
+    background-color: #ed155d;
+}
+
+/* Toggle */
+.my-list {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.my-toggle {
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    
+}
+
+/* Home Page */
+/*  hero section */
+#home {
+    position: relative;
+
+}
+
+#bg-video {
+    max-width: 100%;
+    max-height: 100vh;
+    min-width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    background-color: rgba(35, 45, 57, 0.8);
+    top: 0px;
+    left: 0;
+    bottom: 12px;
+    width: 100%;
+    height: 100vh;
+}
+
+.caption {
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.my-font {
+    font-size: 50px;
+}
+
+.my-btn {
+    background-color: #ed155d;
+}
+
+.my-line {
+    width: 100%;
+    border-bottom: 10px solid #ed155d;
+    margin-top: -10px;
+}
+
+.my-process {
+    background-color: #1e2427;
+}
+
+
+/*  home section2*/
+
+.my-hr {
+    width: 30%;
+    border-bottom: 5px solid #ed155d;
+    margin: auto;
+    margin-top: -10px;
+}
+
+.card {
+    background-color: #1e2427;
+    border: 1px solid rgba(12, 9, 19, 0.5);
+    box-shadow: 3px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+    box-shadow: 5px 10px 5px #181b1d;
+}
+
+.my-card:hover {
+    box-shadow: 20px 0px 25px #181b1d;
+
+}
+
+.card-body {
+    margin: 35px 5px;
+}
+
+.my-icon {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    border-radius: 50px;
+    background-color: #ed155d;
+}
+
+.progess-icon {
+    font-size: 50px;
+    padding-top: 15px;
+}
+
+.details-icon {
+    font-size: 40px;
+}
+
+
+
+
+
+
+/* About Us */
+/* Hero section 2 */
+#exercise{
+    position: relative;
+    background-image: url(img/about-2.webp);
+    background-color: #243238;
+    opacity: 0.85;
+    background-size: cover;
+    background-position: center;
+}
+
+.fa-star{
+    color: #ed155d;
+}
+
+/* section3 */
+.about-icon{
+    font-size: 100px;
+    /* padding-left: 38%; */
+}
+.trainer-1{
+   background-image: url(img/trainer.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.trainer-2{
+   background-image: url(img/trainer2.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.trainer-3{
+   background-image: url(img/trainer3.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    background-color: #243238;
+    color: #fff;
+    padding: 50px 15px 30px 15px;
+}
+
+.footer-icon {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.my-copyright {
+    height: 60px;
+    color: #fff;
+    background-color: #181b1d;
+}
+
+
+
+
+
+/* About Us */
+/* Hero section 2 */
+.my-par{
+    color: darkgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media querry */
+
+/* hero section */
+@media only screen and (max-width: 740px) {
+    .caption {
+        top: 30%;
+    }
+}
+
+@media screen and (min-device-width: 340px) and (max-device-width: 1110px) {}
